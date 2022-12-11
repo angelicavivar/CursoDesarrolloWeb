@@ -4,7 +4,7 @@
 /*font-family: 'Roboto', sans-serif;,font-family: 'Dancing Script', cursive;,font-family: 'Source Serif Pro', serif;*/
 /*SELECTORES*/
 /*Selector Universal*/
-* {
+* {/*para toda la pagina*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -53,3 +53,22 @@ h4 {
 #quienSomos {
   font-size: 20px;
 }
+/*.image_posc{
+position:relative;
+top:50px; left :30px;
+}*/
+.navItem  {
+ 
+  display: inline;
+  
+}
+.navItem:hover a {
+  color: bisque;
+  background-color: violet;
+}
+.navegacion{
+  height:24px;
+  background-color: #fab831;
+  border: 3px;
+}
+
